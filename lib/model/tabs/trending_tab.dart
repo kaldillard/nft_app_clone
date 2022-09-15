@@ -7,8 +7,14 @@ class TrendingTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return NftCard(
-      image: "lib/images/apiens_3.png",
+    return ListView(
+      children: [
+        NftCard(
+          image: "lib/images/apiens_3.png",
+          price: 2.50,
+          onTap: () {},
+        ),
+      ],
     );
   }
 }

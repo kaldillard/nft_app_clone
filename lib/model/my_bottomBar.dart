@@ -12,7 +12,7 @@ class MyBottomBar extends StatelessWidget {
       currentIndex: index,
       onTap: onTap,
       selectedItemColor: Colors.white,
-      unselectedItemColor: Colors.grey.shade300,
+      unselectedItemColor: Colors.grey.shade400,
       backgroundColor: Colors.transparent,
       showSelectedLabels: false,
       showUnselectedLabels: false,

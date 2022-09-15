@@ -7,8 +7,14 @@ class TopTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return NftCard(
-      image: "lib/images/apiens_2.png",
+    return ListView(
+      children: [
+        NftCard(
+          image: "lib/images/apiens_2.png",
+          price: .95,
+          onTap: () {},
+        ),
+      ],
     );
   }
 }

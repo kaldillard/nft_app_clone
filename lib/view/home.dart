@@ -41,14 +41,17 @@ class _HomeState extends State<Home> {
       child: Scaffold(
         extendBody: true,
         backgroundColor: Colors.grey.shade300,
-        body: ListView(
-          children: [
-            MyAppBar(
-              title: "Explore \nCollections",
-              onTap: _searchButton,
-            ),
-            SizedBox(height: 600.h, child: MyTabBar(tabOptions: tabOptions))
-          ],
+        body: SafeArea(
+          bottom: false,
+          child: Column(
+            children: [
+              MyAppBar(
+                title: "Explore \nCollections",
+                onTap: _searchButton,
+              ),
+              SizedBox(height: 600.h, child: MyTabBar(tabOptions: tabOptions))
+            ],
+          ),
         ),
         bottomNavigationBar: GlassBox(
             child: MyBottomBar(

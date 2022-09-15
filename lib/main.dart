@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import 'package:nft_app_clone/view/home.dart';
 
 import 'model/my_appbar.dart';

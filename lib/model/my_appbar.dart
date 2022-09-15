@@ -24,9 +24,13 @@ class MyAppBar extends StatelessWidget {
               child: Container(
                   padding: EdgeInsets.all(12.r),
                   decoration: BoxDecoration(
-                      border: Border.all(color: Colors.white),
-                      borderRadius: BorderRadius.circular(12.r),
-                      color: Colors.grey.shade200),
+                    border: Border.all(
+                      color: Colors.grey.shade500,
+                      width: 2,
+                    ),
+                    borderRadius: BorderRadius.circular(12.r),
+                    color: Colors.grey.shade300,
+                  ),
                   child: Icon(
                     Icons.search,
                     size: 36.sp,
