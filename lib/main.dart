@@ -3,8 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:nft_app_clone/view/home.dart';
 
-import 'model/my_appbar.dart';
-
 void main() {
   runApp(const MyApp());
 }
